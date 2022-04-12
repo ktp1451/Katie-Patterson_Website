@@ -15,23 +15,24 @@ header {
 
 /* portfolio project images */
 .project-1 {
-    background-image: url(img/clickup.png);
+    background-image: url(img/login.gif);
     background-size:auto;
-    height: 200px !important;
+    height: 500px !important;
+    background-repeat: no-repeat;
 }
   
 .project-2 {
-    background-image: url(img/ronbanner.png);
+    background-image: url(img/color_aura.png);
     background-size:auto;
 }
   
 .project-3 {
-    background-image: url();
+    background-image: url(img/ron-banner-2000-x-600-left.png);
     background-size:auto;
 }
 
 .project-4 {
-    background-image: url();
+    background-image: url(img/clickup.png);
     background-size:auto;
 }
 
