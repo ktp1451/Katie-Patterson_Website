@@ -1,0 +1,52 @@
+.nav-wrapper {
+    background-color: transparent;
+}
+
+header {
+    background: url(img/desk-top.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+
+.btn-floating {
+    background-color: #212121;
+}
+
+/* portfolio project images */
+.project-1 {
+    background-image: url(img/clickup.png);
+    background-size:auto;
+    height: 200px !important;
+}
+  
+.project-2 {
+    background-image: url(img/ronbanner.png);
+    background-size:auto;
+}
+  
+.project-3 {
+    background-image: url();
+    background-size:auto;
+}
+
+.project-4 {
+    background-image: url();
+    background-size:auto;
+}
+
+.project-5 {
+    background-image: url();
+    background-size:auto;
+}
+
+.project-6 {
+    background-image: url();
+    background-size:auto;
+}
+
+@media screen and (max-width: 670px) {
+    header{
+        min-height: 500px;
+    }
+}
