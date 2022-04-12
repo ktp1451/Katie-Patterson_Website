@@ -13,7 +13,16 @@ header {
     background-color: #212121;
 }
 
+p {
+    font-size: 20px !important;
+}
+
+.nav-wrapper {
+    text-shadow: 2px 2px #008080;
+}
+
 /* portfolio project images */
+
 .project-1 {
     background-image: url(img/login.gif);
     background-size:auto;
