@@ -18,31 +18,51 @@ p {
 }
 
 .nav-wrapper {
-    text-shadow: 2px 2px #008080;
+    text-shadow: 2px 2px #212121;
+}
+
+.center-left {
+    font-size: 80px;
+    margin-top: 225px;
+    text-shadow: 2px 2px #424242;
+}
+
+.tabs .indicator {
+    background-color: #212121;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background: transparent;
 }
 
 /* portfolio project images */
 
-.project-1 {
+#swipe-1 {
     background-image: url(img/login.gif);
-    background-size:auto;
-    height: 500px !important;
+    height: 400px !important;
     background-repeat: no-repeat;
+    background-size: cover;
 }
   
-.project-2 {
+#swipe-2 {
     background-image: url(img/color_aura.png);
-    background-size:auto;
+    height: 400px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
   
-.project-3 {
+#swipe-3 {
     background-image: url(img/ron-banner-2000-x-600-left.png);
-    background-size:auto;
+    height: 400px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.project-4 {
+#swipe-4 {
     background-image: url(img/clickup.png);
-    background-size:auto;
+    height: 400px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .project-5 {
