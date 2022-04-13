@@ -1,3 +1,14 @@
+html {
+    height: 100% !important;
+}
+
+body {
+    min-height: 100% !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+}
+
 .nav-wrapper {
     background-color: transparent;
 }
@@ -17,7 +28,7 @@ p {
     font-size: 20px !important;
 }
 
-.nav-wrapper {
+.left {
     text-shadow: 2px 2px #212121;
 }
 
@@ -81,6 +92,15 @@ p {
 .project-6 {
     background-image: url();
     background-size:auto;
+}
+
+section.footer {
+    max-height: 180px;
+}
+
+.footer-one {
+    background:#424242;
+    margin-top: auto !important;
 }
 
 @media screen and (max-width: 670px) {
