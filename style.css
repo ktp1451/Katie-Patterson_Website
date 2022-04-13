@@ -35,6 +35,14 @@ p {
     background: transparent;
 }
 
+.row {
+    margin-bottom: 100px;
+}
+
+.links {
+    margin-top: 420px;
+}
+
 /* portfolio project images */
 
 #swipe-1 {
