@@ -94,13 +94,35 @@ p {
     background-size:auto;
 }
 
+h3 {
+    font-size: 15px;
+    color: #424242;
+}
+
+h4 {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #26a69a;
+}
+
+a.backToTop {
+    color: #26a69a;
+}
+
 section.footer {
     max-height: 180px;
+    /* display: flex;
+    flex-direction: column; */
+    max-height: 25px;
 }
 
 .footer-one {
     background:#424242;
     margin-top: auto !important;
+}
+
+.contactFooter {
+    color: #26a69a;
 }
 
 @media screen and (max-width: 670px) {
